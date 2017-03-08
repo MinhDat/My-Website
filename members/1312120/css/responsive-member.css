@@ -1,0 +1,37 @@
+@media screen and (max-width: 767px) {
+	
+	.inline {
+		display: inline-block;
+	}
+
+	.search {
+		width: 85%;
+	}
+
+	.dathm-navbar .dathm-form-search {
+	    margin-right: 0px;
+	}
+
+	.col-xs-12, .col-sm-12 {
+	    padding-right: 5px !important;
+	    padding-left: 5px !important;
+	}
+
+	.card.hovercard .cardheader {
+	    height: 200px;
+	}
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+	
+
+	.col-sm-12 {
+	    padding-left: 5px !important;
+	    padding-right: 5px !important;
+	}
+
+	.col-sm-12 {
+	    padding-left: 5px !important;
+	    padding-right: 5px !important;
+	}
+}
