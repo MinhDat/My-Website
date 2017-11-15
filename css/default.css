@@ -1,0 +1,275 @@
+/*
+ * Start Bootstrap - Heroic Features (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body, html{
+    height: 100%;
+}
+
+.bgimg {
+    background-image: url('../images/background.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dathm-navbar {
+	padding-top: 30px;
+	background-color: rgba(0,0,0,0.0);
+	border-color: rgba(0,0,0,0.0);
+
+}
+
+.dathm-navbar .container {
+    padding-bottom: 20px;
+}
+
+.dathm-navbar .navbar-brand {
+    color: white;
+}
+
+.dathm-navbar .navbar-brand:hover {
+    color: #e0e0e0;
+}
+
+.dathm-navbar .navbar-nav>li>a{
+	color: white;
+}
+
+.dathm-navbar .navbar-nav>li>a:hover{
+	color: #e0e0e0;
+}
+
+.headding .line {
+    height: 1px;
+    width: 100%;
+    background: rgba(165, 165, 165, 1);
+    position: relative;
+}
+
+.line {
+    margin: 20px 0px;
+    border-top: 1px solid #000;
+}
+
+.headding {
+    margin-top: 30px;
+}
+
+.headding .text-headding{
+    font-weight: normal;
+    font-size: 18px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    top: 10px;
+    letter-spacing: 3px;
+    height: 30px;
+    width: 100%;
+}
+
+.headding .text-headding span {
+	background: #fff none repeat scroll 0 0;
+	padding: 0 50px;
+}
+
+a {
+	color: black;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.dathm-navbar .dathm-form-search {
+    font-size: 20px;
+    margin-right: 8px;
+    margin-left: 8px;
+    color: white;
+}
+
+.dathm-group {
+	margin-top: 30px;
+}
+
+.dathm-image .img-circle {
+	height: 148px;
+	width: 148px;
+	border-radius: 50%;
+}
+
+.dathm-image .img-circle:hover {
+    opacity: 0.7;       
+}
+
+.dathm-name {
+	font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.headding .services-headding{
+    font-weight: normal;
+    font-size: 18px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    top: 10px;
+    letter-spacing: 3px;
+    height: 30px;
+    width: 100%;
+}
+
+.headding .services-headding span {
+	background: rgba(251, 251, 251, 1) none repeat scroll 0 0;
+	padding: 0 50px;
+}
+
+.dathm-about h2 {
+    margin-top: 30px;
+}
+
+.dathm-services {
+	background-color: rgba(251, 251, 251, 1);
+}
+
+.dathm-contact-cover {
+    margin-top: 30px;
+}
+
+.service-logo span{
+	font-size: 80px;
+	color: rgba(148, 148, 148, 1);
+}
+
+.caption a, p{
+	color: rgba(148, 148, 148, 1);
+	margin-bottom: 30px;
+}
+
+.lookbook-item-home {
+	margin-bottom: 10px;
+}
+
+.lookbook-item-home .realab-lb-img {
+    height: 250px;
+    overflow: hidden;
+    transition: all .5s ease 0s;
+}
+
+.lookbook-item-home:hover .realab-lb-img{
+  border: 7px solid #EEE;
+  border-opacity:0.5;
+}
+
+.lookbook-item-home .realab-lb-img img{
+    max-height: 250px;
+}
+
+.dathm-contact-cover{
+    color: rgb(255, 255, 255);
+    position: relative;
+    min-height: 400px;
+    background: url("../images/contact-background.jpg") no-repeat scroll 0px 100% / cover transparent;
+    background-attachment: fixed;
+}
+
+.contact-row {
+	background-color:rgba(0, 0, 0, 0.2);
+	padding: 30px 0;
+}
+
+.distance {
+	height: 100px;
+}
+
+.module-icon-item {
+	padding: 0 30px;
+	display: inline-block;
+}
+
+.row-down {
+	padding-bottom: 30px;
+}
+
+.row-down i {
+    vertical-align: middle;
+    padding: .5em;
+    font-size: 16px;
+    border-radius: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.row-down .default {
+	background-color: #f7f7f7;
+	color: black;
+}
+
+.row-down .green {
+	background-color: #4aab10;
+}
+
+.row-down .orange {
+	background-color: #ff9600;
+}
+
+.dathm-footer {
+	color: white;
+	background-color: #292929;
+}
+
+.dathm-footer .row{
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.footer-licence  {
+	text-align: center;
+}
+
+.scroll-top {
+   position:fixed;
+   bottom:0;
+   right:6%;
+   z-index:100;
+   background: #ffcc33;
+   font-size:24px;
+   border-top-left-radius:3px;
+   border-top-right-radius:3px;
+}
+
+.scroll-top a:link,.scroll-top a:visited {
+  color:#222;
+} 
+
+.footer-social {
+	text-align: center;
+}
+
+.footer-social ul {
+	padding-right: 40px
+}
+ 
+.footer-social ul li{
+	padding-right: 10px;
+	display: inline-block;
+}
+
+.footer-social ul li a{
+	color: white;
+	font-size: 15px;
+}
+
+.scroll {
+  background-color: black;
+}

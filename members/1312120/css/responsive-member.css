@@ -1,0 +1,30 @@
+@media screen and (max-width: 767px) {
+
+	.inline {
+		display: inline-block;
+	}
+
+	.search {
+		width: 85%;
+	}
+
+	.dathm-navbar .dathm-form-search {
+	    margin-right: 0px;
+	}
+
+	.card.hovercard .cardheader {
+	    height: 200px;
+	}
+
+	.block2{
+    	margin-right: 10px;
+	}
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+
+
+	.block2{
+    	margin-right: 10px;
+	}
+}
